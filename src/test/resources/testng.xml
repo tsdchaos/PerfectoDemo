@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="LocalAppium" enabled="false">
+		<classes>
+			<class name="com.perfecto.sampleproject.LocalAppium" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="LocalSelenium" enabled="false">
+		<classes>
+			<class name="com.perfecto.sampleproject.LocalSelenium" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="PerfectoAppium" enabled="false">
+		<classes>
+			<class name="com.perfecto.sampleproject.PerfectoAppium" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="PerfectoSelenium" enabled="false">
+		<classes>
+		</classes>
+	</test> <!-- Test -->
+	<test name="DHS Mobile Test" enabled="true">
+		<classes>
+			<class name="DHS.dhsHomeTest"></class>
+		</classes>
+	</test>
+	<test name="DHS Web Test" enabled="true">
+		<classes>
+			<class name="DHS.DHSWebTest"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

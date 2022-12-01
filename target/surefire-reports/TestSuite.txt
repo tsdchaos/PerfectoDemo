@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 32.159 s <<< FAILURE! - in TestSuite
+DHS.dhsHomeTest.DHSHomeTestAndroid  Time elapsed: 2.286 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+EE-500-0001 - Max number of sessions reached. To add auto wait timeout of up to 54000000000 minutes, use the "'waitForAvailableLicense': true" capability (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D47G269', ip: '192.168.1.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at DHS.dhsHomeTest.DHSHomeTestAndroid(dhsHomeTest.java:138)
+
+DHS.dhsHomeTest.afterMethod[[TestResult name=DHSHomeTestAndroid status=FAILURE method=dhsHomeTest.DHSHomeTestAndroid()[pri:0, instance:DHS.dhsHomeTest@6ab7a896] output={null}]](0)  Time elapsed: 2.297 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "webDriver" is null
+	at DHS.dhsHomeTest.afterMethod(dhsHomeTest.java:227)
+

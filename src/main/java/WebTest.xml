@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ADA Suite" parallel="tests" preserve-order="false" thread-count="10">
+    <!--  	<parameter name="user" value=PERFECTO_USERNAME"></parameter>
+        <parameter name="password" value="PERFECTO_PASSWORD"></parameter>
+   TODO - Either generate a new Security TOKEN or Modify to use Username / Password
+        *** Or use a generated security token
+        -->
+    <parameter name="securityToken" value="eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2ZDM2NmJiNS01NDAyLTQ4MmMtYTVhOC1kODZhODk4MDYyZjIifQ.eyJpYXQiOjE2NjE3ODAzOTYsImp0aSI6IjE2YzQzOWE2LWRiODYtNGU4My05MjA2LWViMTc2MzhhMTg2NSIsImlzcyI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsInN1YiI6ImI1YmYwOTM1LWY0YzctNDQyZS05OTE2LWFkMzRjOWVjMjMzNSIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiYTEyYjk5NjQtMWVlNi00ODdmLWFkNWQtOTdlMzg5ZDljYTRkIiwic2Vzc2lvbl9zdGF0ZSI6IjU4Yjk4ODM1LTQ0MzAtNDVmZS1iODNjLTFjMGI4MDU4ZmUwNiIsInNjb3BlIjoib3BlbmlkIG9mZmxpbmVfYWNjZXNzIHByb2ZpbGUgZW1haWwifQ.Iny7CdskGbmmLmpZQK-Cm3bbdyoESpFIfmDyRlcE_0c"></parameter>
+    <parameter name="host" value="trial.perfectomobile.com"></parameter>
+    <test name="Web ADA test with AXE">
+        <parameter name="url" value="https://www.dhs.gov/"></parameter>
+        <classes>
+            <class name="DHSWebTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="32.159" tests="5" errors="0" skipped="2" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\12037\OneDrive\Documents\PerfectoJavaSample-master\Perfecto Test\target\test-classes;C:\Users\12037\OneDrive\Documents\PerfectoJavaSample-master\Perfecto Test\target\classes;C:\Users\12037\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\12037\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\12037\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\12037\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\12037\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\12037\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\12037\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\12037\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\12037\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\12037\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\12037\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\12037\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\12037\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\12037\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\12037\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\12037\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\12037\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\12037\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\12037\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\12037\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\12037\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\12037\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\12037\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\12037\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\12037\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\12037\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\12037\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\12037\.m2\repository\com\perfectomobile\pm-webdriver\18.6.0.0\pm-webdriver-18.6.0.0.jar;C:\Users\12037\.m2\repository\com\perfectomobile\http-client\18.6.0.0\http-client-18.6.0.0.jar;C:\Users\12037\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\12037\.m2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;C:\Users\12037\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\12037\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\12037\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\12037\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\12037\.m2\repository\org\slf4j\slf4j-api\1.7.16\slf4j-api-1.7.16.jar;C:\Users\12037\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\12037\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\12037\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\12037\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\12037\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\12037\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\12037\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\12037\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\12037\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\12037\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\12037\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\12037\.m2\repository\com\perfecto\reporting-sdk\reportium-java\2.3.4\reportium-java-2.3.4.jar;C:\Users\12037\.m2\repository\com\perfecto\reporting-sdk\reportium-testng\2.3.4\reportium-testng-2.3.4.jar;C:\Users\12037\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\12037\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="application.properties.file" value="resources/application.properties"/>
+    <property name="sun.boot.library.path" value="C:\Users\12037\.jdks\openjdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\12037\AppData\Local\Temp\surefire518464606858278307\surefirebooter5833466468733803226.jar C:\Users\12037\AppData\Local\Temp\surefire518464606858278307 2022-09-22T11-55-05_643-jvmRun1 surefire14389475664942397739tmp surefire_03034998809779286942tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\12037\OneDrive\Documents\PerfectoJavaSample-master\Perfecto Test\target\test-classes;C:\Users\12037\OneDrive\Documents\PerfectoJavaSample-master\Perfecto Test\target\classes;C:\Users\12037\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\12037\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\12037\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\12037\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\12037\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\12037\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\12037\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\12037\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\12037\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\12037\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\12037\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\12037\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\12037\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\12037\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\12037\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\12037\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\12037\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\12037\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\12037\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\12037\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\12037\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\12037\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\12037\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\12037\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\12037\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\12037\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\12037\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\12037\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\12037\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\12037\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\12037\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\12037\.m2\repository\com\perfectomobile\pm-webdriver\18.6.0.0\pm-webdriver-18.6.0.0.jar;C:\Users\12037\.m2\repository\com\perfectomobile\http-client\18.6.0.0\http-client-18.6.0.0.jar;C:\Users\12037\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\12037\.m2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;C:\Users\12037\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\12037\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\12037\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\12037\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\12037\.m2\repository\org\slf4j\slf4j-api\1.7.16\slf4j-api-1.7.16.jar;C:\Users\12037\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\12037\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\12037\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\12037\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\12037\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\12037\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\12037\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\12037\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\12037\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\12037\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\12037\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\12037\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\12037\.m2\repository\com\perfecto\reporting-sdk\reportium-java\2.3.4\reportium-java-2.3.4.jar;C:\Users\12037\.m2\repository\com\perfecto\reporting-sdk\reportium-testng\2.3.4\reportium-testng-2.3.4.jar;C:\Users\12037\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\12037\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\12037"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Users\12037\.jdks\openjdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\12037\OneDrive\Documents\PerfectoJavaSample-master\Perfecto Test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\12037\AppData\Local\Temp\surefire518464606858278307\surefirebooter5833466468733803226.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-39"/>
+    <property name="user.name" value="12037"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\12037\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\12037\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\12037\OneDrive\Documents\PerfectoJavaSample-master\Perfecto Test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\12037\.jdks\openjdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Gradle\gradle-7.5.1\bin;C:\Users\12037\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="DHSHomeTestAndroid" classname="DHS.dhsHomeTest" time="2.286">
+    <failure message="EE-500-0001 - Max number of sessions reached. To add auto wait timeout of up to 54000000000 minutes, use the &quot;&apos;waitForAvailableLicense&apos;: true&quot; capability (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.03 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-D47G269&apos;, ip: &apos;192.168.1.242&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+EE-500-0001 - Max number of sessions reached. To add auto wait timeout of up to 54000000000 minutes, use the "'waitForAvailableLicense': true" capability (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D47G269', ip: '192.168.1.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at DHS.dhsHomeTest.DHSHomeTestAndroid(dhsHomeTest.java:138)
+]]></failure>
+    <system-out><![CDATA[Run started
+]]></system-out>
+  </testcase>
+  <testcase name="afterMethod[[TestResult name=DHSHomeTestAndroid status=FAILURE method=dhsHomeTest.DHSHomeTestAndroid()[pri:0, instance:DHS.dhsHomeTest@6ab7a896] output={null}]](0)" classname="DHS.dhsHomeTest" time="2.297">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])&quot; because &quot;webDriver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "webDriver" is null
+	at DHS.dhsHomeTest.afterMethod(dhsHomeTest.java:227)
+]]></failure>
+  </testcase>
+  <testcase name="DHSHomeTestiOS" classname="DHS.dhsHomeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="DHS.dhsHomeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="homepageTest" classname="DHS.DHSWebTest" time="26.534">
+    <system-out><![CDATA[11:55:23,622 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:55:23,622 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:55:23,622 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/12037/OneDrive/Documents/PerfectoJavaSample-master/Perfecto%20Test/target/classes/logback.xml]
+11:55:23,623 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+11:55:23,623 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/C:/Users/12037/OneDrive/Documents/PerfectoJavaSample-master/Perfecto%20Test/target/classes/logback.xml]
+11:55:23,623 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/12037/.m2/repository/com/perfectomobile/pm-webdriver/18.6.0.0/pm-webdriver-18.6.0.0.jar!/logback.xml]
+11:55:23,646 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:55:23,646 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:55:23,650 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+11:55:23,654 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:55:23,668 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to ERROR
+11:55:23,668 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [httpclient] to ERROR
+11:55:23,668 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+11:55:23,669 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+11:55:23,669 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:55:23,670 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3c3dc0a4 - Registering current configuration as safe fallback point
+
+11:55:23 TestNG INFO  AxeClasses.AxeHelper Loading helper script /axeHighlighter.js
+11:55:23 TestNG INFO  AxeClasses.AxeHelper Loading helper script /runAxe.js
+11:55:23 TestNG INFO  AxeClasses.AxeHelper Loading helper script /startHighlighter.js
+11:55:23 TestNG DEBUG AxeClasses.AxeHelper Injecting Axe from "https://cdnjs.cloudflare.com/ajax/libs/axe-core/3.5.3/axe.min.js"
+11:55:23 TestNG INFO  AxeClasses.JavascriptInjector Injecting JavaScript from URL: https://cdnjs.cloudflare.com/ajax/libs/axe-core/3.5.3/axe.min.js
+11:55:25 TestNG INFO  AxeClasses.JavascriptInjector executeAsyncScript works on: ANY null - Chrome 104
+11:55:26 TestNG INFO  AxeClasses.AxeHelper Axe injection succeded.
+11:55:26 TestNG DEBUG AxeClasses.AxeHelper Getting axe rules...
+11:55:26 TestNG INFO  AxeClasses.AxeHelper 89 AXE rules available.
+11:55:29 TestNG INFO  AxeClasses.AxeHelper Axe returned: true
+11:55:29 TestNG INFO  AxeClasses.AxeHelper Axe highlight script: true
+11:55:29 TestNG INFO  AxeClasses.AxeHelper Axe start highlighter returned: true
+]]></system-out>
+    <system-err><![CDATA[Sep 22, 2022 11:55:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+AxeClasses.AccessibilityException: 
+ANY-11 Chrome-104 : 14 violations on http://www.dhs.gov
+Report Link: https://trial.app.perfectomobile.com/reporting/library?externalId[0]=f9af8623-7cde-4816-9254-3e5ffe8b2a70
+
+critical - aria-valid-attr-value
+ Fix all of the following:
+  Invalid ARIA attribute value: aria-labelledby="block-dhs-uswds-subtheme-footer-menu"
+ Selector:	#block-dhs-uswds-subtheme-footer
+ HTML:		<nav role="navigation" aria-labelledby="block-dhs-uswds-subtheme-footer-menu" id="block-dhs-uswds-subtheme-footer" class="grid-col-9 block block-menu navigation menu--footer">
+
+minor - duplicate-id
+ Fix any of the following:
+  Document has multiple static elements with the same id attribute
+ Selector:	#basic-mega-nav-section-1 > .grid-gap-4.grid-row:nth-child(1)
+ HTML:		<div id="desktop-submenu" class="grid-row grid-gap-4">
+
+minor - duplicate-id
+ Fix any of the following:
+  Document has multiple static elements with the same id attribute
+ Selector:	#basic-mega-nav-section-1 > .grid-gap-4.grid-row:nth-child(2)
+ HTML:		<div id="extra-parent" class="grid-row grid-gap-4">
+
+minor - duplicate-id
+ Fix any of the following:
+  Document has multiple static elements with the same id attribute
+ Selector:	#basic-mega-nav-section-1 > .grid-gap-4.grid-row:nth-child(2) > div:nth-child(1)
+ HTML:		<div id="mobile-submenu">
+        <div class="usa-col">
+          <div class="usa-nav__submenu-item">
+            <a href="/topics" class="survey-processed">
+              <span>Topics</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.show-button.tablet\:grid-col-4.usa-card:nth-child(1) > .usa-card__container > .usa-card__media > .usa-card__img > .card-link.survey-processed[data-route-name=""]
+ HTML:		<a href="https://www.ready.gov/september" class="card-link survey-processed" data-route-name="">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.card-link[href$="ukraine"][data-route-name=""]
+ HTML:		<a href="/ukraine" class="card-link survey-processed" data-route-name="">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.show-button.tablet\:grid-col-4.usa-card:nth-child(3) > .usa-card__container > .usa-card__media > .usa-card__img > .card-link.survey-processed[data-route-name=""]
+ HTML:		<a href="/allieswelcome?utm_source=hp_slideshow&amp;utm_medium=web&amp;utm_campaign=dhsgov" class="card-link survey-processed" data-route-name="">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.show-button.tablet\:grid-col-4.usa-card:nth-child(4) > .usa-card__container > .usa-card__media > .usa-card__img > .card-link.survey-processed[data-route-name=""]
+ HTML:		<a href="/dhs-actions-climate-change?utm_source=hp_slideshow&amp;utm_medium=web&amp;utm_campaign=dhsgov" class="card-link survey-processed" data-route-name="">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.show-button.tablet\:grid-col-4.usa-card:nth-child(5) > .usa-card__container > .usa-card__media > .usa-card__img > .card-link.survey-processed[data-route-name=""]
+ HTML:		<a href="/topics/cybersecurity?utm_source=hp_slideshow&amp;utm_medium=web&amp;utm_campaign=dhsgov" class="card-link survey-processed" data-route-name="">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.card-link[href$="are-you-real-id-ready"][data-route-name=""]
+ HTML:		<a href="/real-id/are-you-real-id-ready" class="card-link survey-processed" data-route-name="">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.text-no-underline.card-link[href$="homeland-security-careers"]
+ HTML:		<a href="/homeland-security-careers" class="text-no-underline card-link survey-processed">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.tablet\:grid-col-3.usa-card.carousel-item:nth-child(2) > .text-no-underline.card-link.survey-processed
+ HTML:		<a href="/see-something-say-something/how-to-report-suspicious-activity" class="text-no-underline card-link survey-processed">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	a[href$="check-wait-times"]
+ HTML:		<a href="/check-wait-times" class="text-no-underline card-link survey-processed">
+
+serious - link-name
+ Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role="presentation"
+  Element's default semantics were not overridden with role="none"
+ Selector:	.text-no-underline.card-link[href$="cybersecurity"]
+ HTML:		<a href="/topics/cybersecurity" class="text-no-underline card-link survey-processed">
+
+
+
+	at DHS.DHSWebTest.homepageTest(DHSWebTest.java:163)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></system-err>
+  </testcase>
+</testsuite>

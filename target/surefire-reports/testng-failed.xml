@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="DHS Mobile Test">
+    <classes>
+      <class name="DHS.dhsHomeTest"/>
+    </classes>
+  </test> <!-- DHS Mobile Test -->
+  <test name="DHS Web Test">
+    <classes>
+      <class name="DHS.DHSWebTest"/>
+    </classes>
+  </test> <!-- DHS Web Test -->
+  <test parallel="tests" name="DHS Mobile Test(failed)">
+    <classes>
+      <class name="DHS.dhsHomeTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="DHSHomeTestiOS"/>
+          <include name="DHSHomeTestAndroid"/>
+        </methods>
+      </class> <!-- DHS.dhsHomeTest -->
+      <class name="DHS.DHSWebTest">
+        <methods>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- DHS.DHSWebTest -->
+    </classes>
+  </test> <!-- DHS Mobile Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
