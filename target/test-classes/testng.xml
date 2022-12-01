@@ -20,7 +20,7 @@
 		<classes>
 		</classes>
 	</test> <!-- Test -->
-	<test name="DHS Mobile Test" enabled="true">
+	<test name="DHS Mobile Test" enabled="false">
 		<classes>
 			<class name="DHS.dhsHomeTest"></class>
 		</classes>

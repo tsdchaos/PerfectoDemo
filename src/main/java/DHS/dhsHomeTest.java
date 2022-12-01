@@ -59,55 +59,7 @@ public class dhsHomeTest extends CommonMethods {
         reportiumClient.stepStart("Check access");
         checkAccess(js, "Home part 1");
         reportiumClient.stepEnd();
-
-        initializePageObjects(remoteWebDriver);
-
-        reportiumClient.stepStart("Scroll to second part of Home page");
-        js.executeScript("arguments[0].scrollIntoView();", homePage.schoolSafeBtn);
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Check access");
-        //declare the Map for script parameters
-        checkAccess(js, "Home part 2");
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Scroll to third part of Home page");
-        js.executeScript("arguments[0].scrollIntoView();", homePage.newsUpdates);
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Check access");
-        //declare the Map for script parameters
-        checkAccess(js, "Home part 3");
-        reportiumClient.stepEnd();
-
-        //Navigate to Border-Security portion of DHS Website
-        reportiumClient.stepStart("Navigate to CS page");
-        remoteWebDriver.get(dhsCyberSecurityPage);
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Check access");
-        //declare the Map for script parameters
-        checkAccess(js, "Cyber Security part 1");
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Scroll to second part of CS page");
-        js.executeScript("window.scrollBy(0, 800)");
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Check access");
-        //declare the Map for script parameters
-        checkAccess(js, "Cyber Security part 2");
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Scroll to third part of BS page");
-        js.executeScript("window.scrollBy(0, 800)");
-        reportiumClient.stepEnd();
-
-        reportiumClient.stepStart("Check Access");
-        //declare the Map for script parameters
-        checkAccess(js, "Border security part 3");
-        reportiumClient.stepEnd();
-
+        
 
     }
 
