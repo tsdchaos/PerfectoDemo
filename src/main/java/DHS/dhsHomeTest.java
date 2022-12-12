@@ -51,8 +51,8 @@ public class dhsHomeTest extends CommonMethods {
 
         reportiumClient = PerfectoLabUtils.setReportiumClient(remoteWebDriver, reportiumClient); //Creates reportiumClient
         reportiumClient.testStart("Perfecto Apple Accessibility Test", new TestContext("tag2", "tag3")); //Starts the reportium test
-        reportiumClient.stepStart("browser navigate to dhs"); //Starts a reportium step
-        remoteWebDriver.get(dhsHomePage);
+        reportiumClient.stepStart("browser navigate to CGS"); //Starts a reportium step
+        remoteWebDriver.get(cgsHome);
         reportiumClient.stepEnd();
 
         //These next three lines are the code that actually activate Accessibilty Scanner, take a screenshot, and generate a JSON Report. Copy and paste this code when you need to actually run the scanner

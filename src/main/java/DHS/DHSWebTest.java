@@ -99,10 +99,10 @@ public class DHSWebTest extends CommonMethods {
         try {
 
 
-            reportiumClient.testStart("ADA Test with Axe on Capgemini (" +  dhsHomePage +  ")", new TestContext("ADA", "axe"));
+            reportiumClient.testStart("ADA Test with Axe on Capgemini (" +  cgsHome +  ")", new TestContext("ADA", "axe"));
 
             reportiumClient.stepStart("step 1: Load Page");
-            remoteWebDriver.get(dhsHomePage);
+            remoteWebDriver.get(cgsHome);
 
             reportiumClient.stepStart("step 2: Capture Screenshot ");
             remoteWebDriver.getScreenshotAs(OutputType.BASE64);

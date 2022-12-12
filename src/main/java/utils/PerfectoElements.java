@@ -11,6 +11,7 @@ public class PerfectoElements extends PageInitializer {
     public static final int EXPLICIT_WAIT = 15;
     public static final int IMPLICIT_WAIT = 10;
     //URLs to test
+    public static String cgsHome = "https://www.capgemini.com/us-en/industries/public-sector/capgemini-government-solutions/";
     public static String dhsHomePage = "http://www.dhs.gov";
     public static String dhsBorderSecurityPage = "https://www.dhs.gov/topics/border-security";
 
