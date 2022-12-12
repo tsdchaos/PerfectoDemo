@@ -155,7 +155,7 @@ public class DHSWebTest extends CommonMethods {
                 }
 
                 String message = String.format("%n%s-%s %s : %d violations on %s%nReport Link: %s%n",
-                        platform, version, browserVersionFormatted, errorCount, dhsHomePage, reportUrl);
+                        platform, version, browserVersionFormatted, errorCount, cgsHome, reportUrl);
 
 
                 message = String.format("%s%n%s%n", message, errors);
