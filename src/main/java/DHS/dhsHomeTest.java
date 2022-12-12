@@ -59,7 +59,7 @@ public class dhsHomeTest extends CommonMethods {
         reportiumClient.stepStart("Check access");
         checkAccess(js, "Home part 1");
         reportiumClient.stepEnd();
-        
+
 
     }
 
